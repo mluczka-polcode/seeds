@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    min-height: 100%;
+    background-position: center bottom;
+}
+
+h1 {
+    width: 290px;
+    padding: 60px 0 0 0;
+    text-align: center;
+    background-position: center top;
+}
+
+form .left {
+    display: block;
+    padding-right: 0;
+    padding-bottom: 11px;
+}
+
+form .right {
+    float: left;
+    clear: both;
+    display: block;
+}
+
+form .right label {
+    width: 73px;
+}
+
+textarea {
+    width: 236px;
+}
+
+fieldset.last {
+    text-align: center;
+}
+
+input[type=submit] {
+    float: none;
+    margin: 0 auto;
+}
