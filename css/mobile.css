@@ -1,14 +1,18 @@
 body {
     width: 100%;
-    min-height: 100%;
-    background-position: center bottom;
 }
 
 h1 {
-    width: 290px;
+    width: 100%;
     padding: 60px 0 0 0;
+    margin-bottom: 20px;
     text-align: center;
     background-position: center top;
+}
+
+p span {
+    display: inline-block;
+    clear: both;
 }
 
 form .left {

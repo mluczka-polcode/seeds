@@ -25,12 +25,12 @@ html {
 body {
     width: 586px;
     margin: 0 auto;
-    background: url(../gfx/background.jpg) center top no-repeat;
+    background: url(../gfx/background.jpg) center bottom no-repeat;
 }
 
 h1 {
     width: 52%;
-    height: 58px;
+    min-height: 58px;
     padding: 5px 0 0 70px;
     margin: 30px auto 75px auto;
     text-align: left;
@@ -53,6 +53,7 @@ h1 span em {
 }
 
 sup {
+    vertical-align: top;
     font-size: 40%;
 }
 
@@ -68,6 +69,10 @@ p .big {
 p .subtitle {
     font-size: 12px;
     line-height: 20px;
+}
+
+p sup {
+    vertical-align: super;
 }
 
 form {
