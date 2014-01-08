@@ -10,8 +10,21 @@ h1 {
     background-position: center top;
 }
 
+h1 span {
+    font-size: 30px;
+}
+
 p span {
-    display: inline-block;
+    display: inline;
+}
+
+p > span:before {
+    content: "\A";
+    white-space: pre;
+}
+
+p span span {
+    display: none;
 }
 
 fieldset.last {

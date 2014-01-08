@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    width: 60%;
     margin: 0 auto;
     background: url(../gfx/Seeds.jpg) no-repeat center bottom fixed;
     -webkit-background-size: cover;
@@ -28,7 +29,7 @@ body {
 }
 
 h1 {
-    width: 52%;
+    width: 90%;
     min-height: 58px;
     padding: 5px 0 0 70px;
     margin: 30px auto 75px auto;
@@ -58,7 +59,6 @@ sup {
 
 p {
     font-size: 22px;
-    width: 60%;
     margin: 0 auto 25px auto;
     padding: 10px 0;
     font-weight: bold;
@@ -80,10 +80,11 @@ p sup {
 }
 
 form {
-    width: 40%;
+    width: 65%;
     min-width: 163px;
     max-width: 512px;
-    margin: 10px auto 0 auto;
+    margin-top: 10px;
+    padding-left: 10px;
     text-align: left;
     font-size: 0;
     white-space-collapsing: discard;
@@ -106,31 +107,33 @@ legend span.big {
 }
 
 label {
+    float: left;
     display: inline-block;
-    width: 90px;
+    width: 20%;
     font-size: 15px;
     line-height: 20px;
-
     text-transform: uppercase;
     vertical-align: top;
     font-weight:bold;
+    color:#FFF;
 }
 
 input[type=text], textarea {
     background: #FFF;
-    font-size:15px;
+    font-size: 15px;
 }
 
 input[type=text] {
-    width: 165px;
+    float: right;
+    width: 79%;
     height: 20px;
     padding: 1px;
 }
 
 textarea {
-    width: 85%;
+    width: 99%;
     min-width: 163px;
-    max-width: 435px;
+    max-width: 500px;
     height: 77px;
     padding: 2px;
     vertical-align: bottom;
