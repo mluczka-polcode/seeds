@@ -3,11 +3,8 @@ body {
 }
 
 h1 {
-    width: 100%;
-    padding: 60px 0 0 0;
     margin-bottom: 20px;
-    text-align: center;
-    background-position: center top;
+    font-size: 13px;
 }
 
 h1 span {
