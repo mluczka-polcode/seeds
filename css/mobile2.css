@@ -1,4 +1,4 @@
-input[type=text] {
+input[type=text], textarea {
     clear: both;
     width: 100%;
 }

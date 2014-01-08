@@ -80,7 +80,7 @@ p sup {
 }
 
 form {
-    width: 65%;
+    width: 85%;
     min-width: 163px;
     max-width: 512px;
     margin-top: 10px;
@@ -110,6 +110,7 @@ label {
     float: left;
     display: inline-block;
     width: 20%;
+    min-width: 85px;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
@@ -119,30 +120,24 @@ label {
 }
 
 input[type=text], textarea {
-    background: #FFF;
-    font-size: 15px;
-}
-
-input[type=text] {
     float: right;
-    width: 79%;
+    width: 70%;
     height: 20px;
     padding: 1px;
+    font-size: 15px;
+    background: #FFF;
 }
 
 textarea {
-    width: 99%;
-    min-width: 163px;
-    max-width: 500px;
     height: 77px;
-    padding: 2px;
+    padding: 2px 1px;
     vertical-align: bottom;
 }
 
 input[type=submit] {
     float: right;
     padding: 8px 12px;
-    margin-right:16px;
+    margin-right: 16px;
     font-size: 12px;
     line-height: 10px;
     text-transform: uppercase;
