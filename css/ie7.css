@@ -1,9 +1,5 @@
 body {
-    background-position: center top;
-}
-
-h1 {
-    height: 58px;
+    background-position: center bottom;
 }
 
 input[type=text] {

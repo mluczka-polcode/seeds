@@ -14,26 +14,6 @@ p span {
     display: inline-block;
 }
 
-form .left {
-    display: block;
-    padding-right: 0;
-    padding-bottom: 11px;
-}
-
-form .right {
-    float: left;
-    clear: both;
-    display: block;
-}
-
-form .right label {
-    width: 73px;
-}
-
-textarea {
-    width: 236px;
-}
-
 fieldset.last {
     text-align: center;
 }

@@ -11,9 +11,12 @@ html {
 }
 
 body {
-    width: 586px;
     margin: 0 auto;
-    background: url(../gfx/background.jpg) center bottom no-repeat;
+    background: url(../gfx/Seeds.jpg) no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 ::selection {
@@ -30,7 +33,7 @@ h1 {
     padding: 5px 0 0 70px;
     margin: 30px auto 75px auto;
     text-align: left;
-    font-size: 11px;
+    font-size: 25px;
     font-weight: bold;
     background: url(../gfx/logo.png) left top no-repeat;
 }
@@ -40,7 +43,7 @@ h1 em {
 }
 
 h1 span {
-    font-size: 26px;
+    font-size: 56px;
     text-transform: uppercase;
 }
 
@@ -54,17 +57,22 @@ sup {
 }
 
 p {
-    font-size: 10.5px;
+    font-size: 22px;
+    width: 60%;
+    margin: 0 auto 25px auto;
+    padding: 10px 0;
     font-weight: bold;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
 
 p .big {
-    font-size: 18px;
+    font-size: 28px;
 }
 
 p .subtitle {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 40px;
 }
 
 p sup {
@@ -72,8 +80,10 @@ p sup {
 }
 
 form {
-    width: 81%;
-    margin: 20px auto 0 auto;
+    width: 40%;
+    min-width: 163px;
+    max-width: 512px;
+    margin: 10px auto 0 auto;
     text-align: left;
     font-size: 0;
     white-space-collapsing: discard;
@@ -86,42 +96,42 @@ fieldset {
 legend {
     width: 100%;
     padding-bottom: 16px;
-    text-align: center;
-    font-size: 22px;
+    font-size: 16px;
+}
+
+legend span.big {
+    font-size: 30px;
+    font-weight: bold;
     font-variant: small-caps;
 }
 
 label {
     display: inline-block;
-    width: 73px;
-    font-size: 11px;
-    line-height: 18px;
+    width: 90px;
+    font-size: 15px;
+    line-height: 20px;
+
     text-transform: uppercase;
     vertical-align: top;
-    color: #FFF;
+    font-weight:bold;
 }
 
 input[type=text], textarea {
     background: #FFF;
+    font-size:15px;
 }
 
 input[type=text] {
     width: 165px;
-    height: 17px;
+    height: 20px;
     padding: 1px;
 }
 
-form .left {
-    padding-right: 18px;
-}
-
-form .right label {
-    width: 48px;
-}
-
 textarea {
-    width: 396px;
-    height: 47px;
+    width: 85%;
+    min-width: 163px;
+    max-width: 435px;
+    height: 77px;
     padding: 2px;
     vertical-align: bottom;
 }
@@ -129,12 +139,13 @@ textarea {
 input[type=submit] {
     float: right;
     padding: 8px 12px;
+    margin-right:16px;
     font-size: 12px;
     line-height: 10px;
     text-transform: uppercase;
     color: #FFF;
-    background: #C2C2C2;
+    background: #888;
+
     border-radius: 9px;
     cursor: pointer;
 }
-
